@@ -1,0 +1,92 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 22px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  margin: 0 15px;
+
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, Arial, sans-serif;
+  font-weight: 200;
+
+  background-color: #f7f7f7;
+  color: #525252;
+}
+
+a {
+  color: #0003d9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #001f3f;
+}
+
+img {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+/* Header */
+
+header, footer {
+  width: 700px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 30px;
+  padding-bottom: 5px;
+
+  border-bottom: 1px solid #525252;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.header-title a {
+  color: #525252;
+}
+
+/* Main */
+
+main, article {
+  margin-top: 15px;
+  flex: 1;
+}
+
+.main-post .details {
+  width: 700px;
+  margin: 10px auto;
+}
+
+/* Footer */
+
+footer {
+  margin: 30px auto;
+}
+
+footer .contact-email {
+
+}
+
+footer .twitter-link {
+  float: right;
+}

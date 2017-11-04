@@ -1,0 +1,8 @@
+baseURL: "http://example.org/"
+title: "Dread"
+
+# disableHugoGeneratorInject: true
+enableEmoji: true
+
+permalinks:
+  posts: /:slug/
